@@ -1,0 +1,79 @@
+{
+        "education": "csup",
+        "mainProject": 
+                {
+                    "title": "Tensile Strength of Hemp Composites", 
+                    "description": [
+                        "Analyzed specific requirements and necessary materials.",
+                        "Established a time line for each step and total time required.",
+                        "Determined the process for completing objectives.",
+                        "Cut cloth into five layers and mixed with epoxy.",
+                        "Compressed samples using a 20-ton press.",
+                        "Cut samples into tensile test lengths.",
+                        "Applied a special machine to determine structural properties until failure.",
+                        "Presented results for a conference.",
+                        "Made modifications for additional samples.",
+                        "Emailed graphs of results to professor."
+                    ]
+                },
+        "projects": 
+            [
+                {
+                    "title": "Arduino Maze Solving Robot",
+                    "description": "Interfaced an Arduino UNO, Stepper Motors, and Ultrasonic Sensors."
+                },
+                {
+                    "title": "Machine Shop",
+                    "description": "Constructed projects using Casting, Lathe, and CNC milling machine."
+                },
+                {
+                    "title": "Elevator Robot",
+                    "description": "Developed a system using LaView and the smart breadboard N1 ELVIS."
+                },
+                {
+                    "title": "Traffic Robot",
+                    "description": "Programmed and built a robot to navigate traffic."
+                },
+                {
+                    "title": "Production of Carbon Nanotubes and Imaging",
+                    "description": "Collaborated with a team which used Nanotech's SSP-354 reactor."
+                },
+                {
+                    "title": "Virtual Reality Pendulum Simulation",
+                    "description": "Programmed in a technical environment."
+                },
+                {
+                    "title": "Settlers of the Cosmos",
+                    "description": "Designed a Strategy Space Game using tabletop simulator."
+                }
+
+            ],
+        "coursework": [
+            "Quality Control - Attained Lean/Six Sigma Green Belt.",
+            "Engineering Mechanics I,II - Relationship between forces on an object.",
+            "Thermodynamics - Energy equations and flows, entropy, and kinetic theory.",
+            "Materials Science and Engineering - Chemical structure and atomic bonding.",
+            "Electromechanical Devices - DC & AC motors, generators and transformers.",
+            "Circuit Analysis - Waveform synthesis and pole-zero diagrams.",
+            "Engineering of Manufacturing Processes - Machining, casting, and forming.",
+            "Virtual Machine Design - Computer aided design of mechanical components.",
+            "Project Planning & Control - Selection, organization, and budgeting.",
+            "Computer Integrated Manufacturing - Design, modeling, and applications.",
+            "Control Systems I,II,III- Analysis of A/D & D/A converters and Z transforms."
+        ],
+        "work": 
+            [
+                {
+                    "company": "CSU - PUEBLO ",
+                "description": "Researched electrospining and robotics projects. Served as a Study Group Proctor for a FE Exam preparation. Produced carbon nanotubes for research. Worked as a College Algebra Tutor. Programmed robots for middle school students."
+                },
+                {
+                    "company": "ACTIV ARMOR",
+                "description": "Performed FEA structural analysis of 3D printed casts.."
+                },
+                {
+                    "company": "LOAF & JUG",
+                "description": "Performed cashier and customer service duties."
+                }
+            ]
+}
