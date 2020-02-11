@@ -35,15 +35,12 @@ export default () => {
 
       {resume.map((info) => {
 
-
-        // console.log(resume.map(hello => {return hello.education}))
-
         return (
           <ResumeSide 
             coursework={info.coursework}
             education={info.education}
             mainProject={info.mainProject}
-            project={info.project}
+            projects={info.projects}
             work={info.work}
           />
 
