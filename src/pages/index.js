@@ -1,6 +1,7 @@
 import React from "react"
 import { graphql, useStaticQuery } from 'gatsby';
 import ResumeSide from "./components/Resume";
+import ImageSide from './components/ImageSide';
 
 export default () => {
   const data = useStaticQuery(graphql`
@@ -29,9 +30,8 @@ export default () => {
   const resume = data.allDataJson.nodes
 
   return (
-    <div style={{ color: `blue` }}>
-      <h1>Hello Gatsby!</h1>
-      <p>What a world.</p>
+    <div style={{display: 'inline'}}>
+      <ImageSide />
 
       {resume.map((info) => {
 

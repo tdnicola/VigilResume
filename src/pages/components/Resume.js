@@ -2,9 +2,9 @@ import React from "react";
 import styled from 'styled-components';
 
 const Container = styled.div`
-  text-align: center;
-  width: 50%;
+  width: 45%;
   float: right;
+  display: inline;
 `
 
 const ResumeSide = ({education, mainProject, projects, coursework, work}) => (
