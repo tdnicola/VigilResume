@@ -3,16 +3,17 @@ import styled from 'styled-components';
 import ResumeSection from './ResumeSection';
 import ResumeTitle from './ResumeTitle';
 
-const Container = styled.div`
-  width: 85%;
-  margin-left: 25px;
-`
-
 const RightSide = styled.div`
     width: 50%;
     float: right;
     display: inline;
-    background-color: lavenderblush;
+    color: black;
+    background-color: #FFEAEE;
+`
+
+const Container = styled.div`
+  width: 85%;
+  margin-left: 25px;
 `
 
 const Title = styled.h2`

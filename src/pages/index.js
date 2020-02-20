@@ -2,6 +2,7 @@ import React from "react"
 import { graphql, useStaticQuery } from 'gatsby';
 import ResumeSide from "./components/Resume";
 import ImageSide from './components/ImageSide';
+import styled from 'styled-components';
 
 export default () => {
   const data = useStaticQuery(graphql`
@@ -32,8 +33,15 @@ export default () => {
 
   const resume = data.allDataJson.nodes
 
+  const Container = styled.div`
+    display: inline;
+    color: #A0B9C6;
+
+`
+
   return (
-    <div style={{display: 'inline'}}>
+    <Container>
+ 
       <ImageSide />
 
       {resume.map((info) => {
@@ -50,6 +58,6 @@ export default () => {
         )
       })}
       
-    </div>
+    </Container>
   )
 }
