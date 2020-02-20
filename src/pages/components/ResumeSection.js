@@ -1,28 +1,30 @@
 import React from "react";
 import styled from 'styled-components';
 
-const ResumeDescription = styled.div`
-    font-family: Roboto;
-`
-
 const ResumeTitle = styled.div`
     margin-right: 10px;   
     font-family: Roboto;
 `
 
-const Container = styled.div`
+const ResumeDescription = styled.li`
+    font-family: Roboto;
+    margin-left: 50px;
+    list-style: none;
+`
+const Section = styled.div`
+    margin-left: 50px;
 `
 
 const ResumeSection = ({title, description}) => {
     return (
-        <Container>
+        <Section>
             <ResumeTitle> 
                 {title}
             </ResumeTitle>
             <ResumeDescription>
                 {description}
             </ResumeDescription>
-        </Container>
+        </Section>
     )
 }
 

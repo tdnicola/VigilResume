@@ -1,9 +1,11 @@
 import React from "react";
 import styled from 'styled-components';
 import ResumeSection from './ResumeSection';
+import ResumeTitle from './ResumeTitle';
 
 const Container = styled.div`
   width: 85%;
+  margin-left: 25px;
 `
 
 const RightSide = styled.div`
@@ -11,61 +13,59 @@ const RightSide = styled.div`
     float: right;
     display: inline;
     background-color: lavenderblush;
-    `
-const Title = styled.span`
-    margin-right: 10px;   
 `
+
+const Title = styled.h2`
+    font-size: 1.2em;
+`
+
 
 const ResumeSide = ({education, mainProject, projects, coursework, work}) => (
     <RightSide>
         <Container>
             <div>
-                Education: {education}
+                <ResumeTitle title="Education:" />
+                {education.map((degree) => {
+                    return <ResumeSection title={degree.title} description={degree.education} />
+                })}
             </div>
-            <div className='mainProject'>
 
+            <div className='mainProject'>
+                <ResumeTitle title="Main Project:" />
                 <ResumeSection 
                     title={mainProject.title}
                 />
 
-                {/* <Title>main project:</Title> {mainProject.title} */}
                 {mainProject.description.map((list) => {
-                    return <li> {list} </li>
+                    return <ResumeSection description={list} />
                 })}
-                
             </div>
             
             <div className='projects'>
-
-                <ResumeSection title='Additional Projects:'/>
+                <ResumeTitle title="Additional Projects:" />
 
                 {projects.map((project) => {
-                    return <ResumeSection title={project.title} description={project.description} />
+                    return <ResumeSection title={project.title} description={project.description} style={{marginLeft: '200px'}}/>
                 })}
-
             </div>
 
             <div className='coursework'>
-                <ResumeSection title="Additional Courses:" />
+                <ResumeTitle title="Additional Courses:" />
                  {coursework.map((courses) => {
                     return <ResumeSection description={courses} />
                 })}
             </div>
 
             <div className='work'>
-                work experience: {work.map((jobs) => {
+                <ResumeTitle title="Work Experience:" />
+
+                {work.map((jobs) => {
                     return <ResumeSection title={jobs.company} description={jobs.description} />
                 })}
             </div>
-
         </Container>
     </RightSide>
 )
 
 export default ResumeSide;
 
-                    // <div className='additionalProjects'>Title: {project.title}
-                    //     <div>
-                    //         description: {project.description}
-                    //     </div>
-                    // </div>

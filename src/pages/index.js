@@ -9,7 +9,10 @@ export default () => {
       allDataJson {
         nodes {
           coursework
-          education
+          education {
+            description
+            title
+          }
           mainProject {
             description
             title

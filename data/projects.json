@@ -1,5 +1,14 @@
 {
-        "education": "csup",
+        "education": 
+            [
+                {
+                    "title": "Master of Science in Engineering, with an emphasis in Mechatronics - 2019  (GPA 3.5)",
+                    "description": "GRE SCORE - 154 Verbal (65th Percentile) - 161 Quantitative (78th Percentile)"
+                },
+                {
+                    "title": "Bachelor of Science in Engineering with a specialization in Mechatronics - 2016  (GPA 3.0)"
+                }        
+            ],
         "mainProject": 
                 {
                     "title": "Tensile Strength of Hemp Composites", 
@@ -65,15 +74,27 @@
             [
                 {
                     "company": "CSU - PUEBLO ",
-                "description": "Researched electrospining and robotics projects. Served as a Study Group Proctor for a FE Exam preparation. Produced carbon nanotubes for research. Worked as a College Algebra Tutor. Programmed robots for middle school students."
+                    "description": 
+                        [
+                            "Researched electrospining and robotics projects.",
+                            "Served as a Study Group Proctor for a FE Exam preparation.",
+                            "Produced carbon nanotubes for research.",
+                            "Worked as a College Algebra Tutor.", "Programmed robots for middle school students."
+                        ]
                 },
                 {
                     "company": "ACTIV ARMOR",
-                "description": "Performed FEA structural analysis of 3D printed casts.."
+                    "description": 
+                        [
+                        "Performed FEA structural analysis of 3D printed casts."
+                        ]
                 },
                 {
                     "company": "LOAF & JUG",
-                "description": "Performed cashier and customer service duties."
+                    "description": 
+                        [
+                            "Performed cashier and customer service duties."
+                        ]
                 }
             ]
 }
