@@ -13,7 +13,17 @@ module.exports = {
       options: {
         name: 'project',
         path: './data'
-      }
+      },
+      fonts: [
+        {
+          family: `Roboto Mono`,
+          variants: [`400`, `700`]
+        },
+        {
+          family: `Roboto`,
+          subsets: [`latin`]
+        },
+      ]
     },
     'gatsby-transformer-json'
   ]

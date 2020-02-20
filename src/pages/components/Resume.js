@@ -1,5 +1,6 @@
 import React from "react";
 import styled from 'styled-components';
+import ResumeSection from './ResumeSection';
 
 const Container = styled.div`
   width: 85%;
@@ -22,32 +23,38 @@ const ResumeSide = ({education, mainProject, projects, coursework, work}) => (
                 Education: {education}
             </div>
             <div className='mainProject'>
-                <Title>main project:</Title> {mainProject.title}
+
+                <ResumeSection 
+                    title={mainProject.title}
+                />
+
+                {/* <Title>main project:</Title> {mainProject.title} */}
                 {mainProject.description.map((list) => {
                     return <li> {list} </li>
                 })}
+                
             </div>
             
             <div className='projects'>
-                additional projects: 
+
+                <ResumeSection title='Additional Projects:'/>
+
                 {projects.map((project) => {
-                    return <div className='additionalProjects'>Title: {project.title}
-                        <div>
-                            description: {project.description}
-                        </div>
-                    </div>
+                    return <ResumeSection title={project.title} description={project.description} />
                 })}
+
             </div>
 
             <div className='coursework'>
-                coursework: {coursework.map((courses) => {
-                    return courses
+                <ResumeSection title="Additional Courses:" />
+                 {coursework.map((courses) => {
+                    return <ResumeSection description={courses} />
                 })}
             </div>
 
             <div className='work'>
                 work experience: {work.map((jobs) => {
-                    return jobs.company
+                    return <ResumeSection title={jobs.company} description={jobs.description} />
                 })}
             </div>
 
@@ -56,3 +63,9 @@ const ResumeSide = ({education, mainProject, projects, coursework, work}) => (
 )
 
 export default ResumeSide;
+
+                    // <div className='additionalProjects'>Title: {project.title}
+                    //     <div>
+                    //         description: {project.description}
+                    //     </div>
+                    // </div>

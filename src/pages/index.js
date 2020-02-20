@@ -34,7 +34,7 @@ export default () => {
       <ImageSide />
 
       {resume.map((info) => {
-
+      
         return (
           <ResumeSide 
             coursework={info.coursework}
@@ -46,6 +46,7 @@ export default () => {
 
         )
       })}
+      
     </div>
-)
+  )
 }
