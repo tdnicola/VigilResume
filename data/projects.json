@@ -29,31 +29,56 @@
             [
                 {
                     "title": "Arduino Maze Solving Robot",
-                    "description": "Interfaced an Arduino UNO, Stepper Motors, and Ultrasonic Sensors."
+                    "description": 
+                        [
+                            "Interfaced an Arduino UNO, Stepper Motors, and Ultrasonic Sensors into an autonomous robot."
+                        ]
                 },
                 {
                     "title": "Machine Shop",
-                    "description": "Constructed projects using Casting, Lathe, and CNC milling machine."
+                    "description": 
+                        [
+                            "Constructed with use of Casting, Lathe, and CNC (Computer Numeric Control) milling machine.",
+                            "Assembled as second part of manufacturing lab. First part of lab focused on metrology. "
+                        ]
                 },
                 {
                     "title": "Elevator Robot",
-                    "description": "Developed a system using LaView and the smart breadboard N1 ELVIS."
+                    "description": 
+                        [
+                            "Developed a system using LabView and the smart breadboard N1 ELVIS.",
+                            "Programed for group, the robot would keep track of position using digital encoder and would use that to adjust voltage of motor using PID (Proportional Integral Derivative) controller."
+                        ]
                 },
                 {
                     "title": "Traffic Robot",
-                    "description": "Programmed and built a robot to navigate traffic."
+                    "description": 
+                        [
+                            "Programmed and built a robot to navigate traffic."
+                        ]
                 },
                 {
                     "title": "Production of Carbon Nanotubes and Imaging",
-                    "description": "Collaborated with a team which used Nanotech's SSP-354 reactor."
+                    "description": 
+                        [
+                            "Collaborated with a team which used Nanotech's SSP-354 reactor.",
+                            "Imaged using an AFM (Atomic Force Microscope) and SEM (Scanning Electron Microscope)."
+                        ]
                 },
                 {
                     "title": "Virtual Reality Pendulum Simulation",
-                    "description": "Programmed in a technical environment."
+                    "description": 
+                        [
+                            "Interactive pendulum simulation in a Virtual reality environment."
+                        ]
                 },
                 {
                     "title": "Settlers of the Cosmos",
-                    "description": "Designed a Strategy Space Game using tabletop simulator."
+                    "description": 
+                        [
+                            "Designed a Strategy Space Game using tabletop simulator.",
+                            "Currently in playtesting/user testing."
+                        ]
                 }
 
             ],
@@ -70,30 +95,77 @@
             "Computer Integrated Manufacturing - Design, modeling, and applications.",
             "Control Systems I,II,III- Analysis of A/D & D/A converters and Z transforms."
         ],
+        "skills": 
+            [
+                {
+                    "type": "Programming",
+                    "description":
+                    [
+                        "Java: Excelled in both Basic and Advance Java (CIS 171, CIS 271) including receiving an A in Advance Java. Created a tower defense game for final project.  Wrote VR project in JavaScript.",
+                        "Arduino: Programed microcontroller for a variety of projects over the past 4 years. Wrote programs quickly that incorporated many different types of actuators.",
+                        "AutoCAD and SolidWorks: Drafted parts using AutoCAD for 10 years, and SolidWorks for 6 years.",
+                        "Skilled in: MATLAB, Ladder Logic (PLC), LabVIEW, G/M Code.",
+                        "Familiar with: C++, Python, HDL, R.",
+                        "Taught self to program on a TI-84 calculator in 8th grade, wrote a PONG program."
+                    ]
+                },
+                {
+                    "type": "Communication",
+                    "description":
+                    [
+                        "Participated in group projects and group lab reports every semester for four years.",
+                        "Presented senior design project to faculty and sponsors."
+                    ]
+                },
+                {
+                    "type": "Lean/Six Sigma",
+                    "description":
+                    [
+                        "Excelled in Stochastic Systems Engineering, Project Planning & Control, Quality Control & Reliability.",
+                        "Six Sigma Green Belt."
+                    ]
+                }
+            ],
         "work": 
             [
                 {
-                    "company": "CSU - PUEBLO ",
+                    "company": "Burger King, Loaf n’ Jug, Sonic- Food Preparation and Cashier",
+                    "date": "Summer 2013-2015",
                     "description": 
                         [
-                            "Researched electrospining and robotics projects.",
-                            "Served as a Study Group Proctor for a FE Exam preparation.",
-                            "Produced carbon nanotubes for research.",
-                            "Worked as a College Algebra Tutor.", "Programmed robots for middle school students."
+                            "Performed cashier and customer service duties.",
+                            "Leadership Skills."
                         ]
                 },
                 {
                     "company": "ACTIV ARMOR",
+                    "date": "May - August 2018",
                     "description": 
                         [
                         "Performed FEA structural analysis of 3D printed casts."
                         ]
                 },
                 {
-                    "company": "LOAF & JUG",
+                    "company": "Institute of Cannabis Research, CSU-Pueblo",
+                    "date": "September 2018- July 2019",
                     "description": 
                         [
-                            "Performed cashier and customer service duties."
+                            "Testing physical properties of hemp/plastic composites."
+                        ]
+                },
+                {
+                    "company": "CSU - PUEBLO ",
+                    "date": "2011-2019",
+                    "description": 
+                        [
+                            "Researched electrospining and robotics projects.",
+                            "Served as a Study Group Proctor for a FE Exam preparation.",
+                            "Produced carbon nanotubes for research.",
+                            "Worked as a College Algebra Tutor.", 
+                            "Programmed robots for middle school students.",
+                            "CNT production",
+                            "Lego Mindstorms Workshop, Aided elementary/middle school children.",
+                            "Proctor study groups for FE exam prep."
                         ]
                 }
             ]

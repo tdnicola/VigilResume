@@ -9,6 +9,8 @@ const RightSide = styled.div`
     display: inline;
     color: black;
     background-color: #FFEAEE;
+    height: 100vh; 
+    overflow-y: scroll;
 `
 
 const Container = styled.div`

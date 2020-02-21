@@ -25,6 +25,11 @@ export default () => {
           work {
             company
             description
+            date
+          }
+          skills {
+            description
+            type
           }
         }
       }
